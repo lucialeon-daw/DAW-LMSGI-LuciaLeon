@@ -1,0 +1,50 @@
+{
+    "enquestes": [
+        {
+            "id": 1,
+            "titol": "Autoavaluació",
+            "activa": true,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "De l'1 al 5, puntua la teva actitud a classe.",
+                    "tipus": "opcio_multiple",
+                    "opcions": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Quin és el principal aprenentatge que t'emportes?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titol": "Coavaluació",
+            "activa": true,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Has ajudat els teus companys en les seves tasques?",
+                    "tipus": "opcio_multiple",
+                    "opcions": [
+                        "Sempre que he pogut",
+                        "Ho he intentat però no ho he pogut fer",
+                        "Els he deixat fer la seva feina sense interferir"
+                    ]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Com creus que podries treballar millor en equip?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        }
+    ]
+}
